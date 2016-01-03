@@ -8,13 +8,14 @@
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
 		<summary lang="en">pigpio</summary>
 		<description lang="en">Add support for pigpio</description>
-		<license>GNU General Public License, v2</license>
+		<disclaimer>No liability taken for damaged hardware and/or software caused by this addon.</disclaimer>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
 		<language></language>
 		<forum>none</forum>
-		<source>none</source>
 		<email>none</email>
+		<source>https://github.com/JamesGKent/script.module.pigpio-master</source>
+		<platform>linux</platform>
 	</extension>
 </addon>
