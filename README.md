@@ -9,7 +9,7 @@ On openelec the pigpio library should be started by creating an autostart file:
 With the following contents:
 ```
 (
- /storage/.kodi/addons/script.module.pigpio-master/lib/pigpiod -s 10
+ /storage/.kodi/addons/script.module.pigpio/lib/pigpiod -s 10
 )
 ```
 Where enclosing the command in brackets indicates that the shell should not wait for it to finish executing. (as it's a system daemon it won't exit)
